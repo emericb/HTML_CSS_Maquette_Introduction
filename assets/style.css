@@ -1,0 +1,396 @@
+@font-face
+{
+	font-family: "Oswald light";
+	src : url("oswald.light.ttf");
+}
+
+@font-face
+{
+	font-family: "droid serif";
+	src : url("droid-serif.italic.ttf");
+}
+
+@font-face
+{
+	font-family: "droid sans";
+	src : url("droid-sans.regular.ttf");
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+header
+{
+	background-image:url(grille.png);
+	font-family: "Droid Sans",sans-serif;
+
+}
+
+body
+{
+	color: rgb(161,161,169);
+	font-family: "Droid Sans", sans-serif;
+}
+
+footer
+{
+	font-family: "Droid Sans", sans-serif;
+}
+
+a
+{
+	text-decoration: none;
+	font-family: "Droid sans", sans-serif;
+	color: rgb(161,161,169);
+	font-size: 10px;
+}
+
+li
+{
+	list-style: none;
+}
+
+hr
+{
+	 margin-top: 9px;
+	 border: 0;
+	 height: 1px;
+	 background-color: rgb(240,240,240);
+}
+
+h4
+{
+	color: rgb(161,161,169);
+	font-family: "Oswald light", serif;
+	font-size: 13px;
+}
+
+h2
+{
+	color: rgb(231,121,39);
+	font-family: "Droid Sans",sans-serif;
+
+}
+
+h3
+{
+	color: rgb(231,121,39);
+	font-family: "Oswald light", serif;
+}
+
+i
+{
+	font-size: 10px;
+}
+
+/* HEADER*/
+
+.logo
+{
+	padding-right: 183px;
+	padding-top: 19px;
+	margin-right: -4%;
+	margin-bottom: 5%;
+	max-width: 100%;
+}
+
+.menu1
+{
+	display: inline-flex;
+	margin-left: 17%;
+
+}
+
+.hotel
+{
+	padding-right: 54px;
+}
+
+.sub1
+{
+	height: 3%;
+	width: 153%;
+	margin-top: -20%;
+}
+
+.orange
+{
+	background-color: rgb(247,105,0);
+}
+
+.restaurant
+{
+	padding-right: 56px;
+}
+
+.sub2
+{
+	height: 3%;
+	width: 145%;
+	margin-top: -16%;
+}
+
+.jaune
+{
+	background-color: rgb(252,208,74);
+}
+
+.services
+{
+	padding-right: 60px;
+}
+
+.sub3
+{
+	height: 3%;
+	width: 183%;
+	margin-top: -24%;
+}
+
+.vert
+{
+	background-color: rgb(185,212,130);
+}
+
+.activites
+{
+	padding-right: 55px;
+}
+
+.sub4
+{
+	height: 3%;
+	width: 151%;
+	margin-top: -17%;
+}
+
+.bleu
+{
+	background-color: rgb(61,146,194);
+}
+
+.plus
+{
+	padding-right: 50px;
+}
+
+.sub5
+{
+	height: 3%;
+	width: 149%;
+	margin-top: -14%
+}
+
+.violet
+{
+	background-color: rgb(192,120,208);
+}
+
+.video
+{
+	text-align: center;
+}
+
+/*Middle*/
+.texte
+{
+	background-image: url("grille.png");
+	text-align: center;
+	font-family: "droid serif", sans-serif;
+}
+
+.italic
+{
+	font-size: 15px;
+}
+
+/*BODY*/
+
+.golf {
+	float: left;
+    width: 210px;
+    margin-left: 22%;
+    padding-left: 0.9%;
+    padding-right: 0.5%;
+    margin-top: 10px;
+    border: 1px solid lightgrey;
+    line-height: 175%;
+    font-size: 13px;
+}
+
+.comment
+{
+	float: right;
+	width: 29%;
+    padding-right: 13.5%;
+    margin-top: -396px;
+    line-height: 175%;
+    font-size: 12px;
+
+}
+
+.accrofood {
+	margin-left: 14%;
+	margin-right: 14%;
+	padding-top: 7px;
+    padding-left: 25.9%;
+    padding-right: 30.5%;
+    line-height: 177%;
+    font-size: 13px;
+}
+
+.publi
+{
+	margin-top: -15px;
+	font-size: 10px;
+	color: lightgrey;
+}
+
+.acc
+{
+	border: 1px solid lightgrey;
+	padding: 1%;
+	margin: 2px;
+}
+
+.super
+{
+	margin: 1px;
+}
+
+.ligne
+{
+	margin-bottom: 0px;
+}
+
+/* FOOTER */
+
+.grille2
+{
+	background-image: url("grille.png");
+    height: 200px;
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block;
+}
+
+.menu2
+{
+	display: inline-flex;
+    font-size: 13px;
+    margin-left: 18%;
+}
+
+.titre
+{
+	margin-left: 38px;
+}
+
+.contacter
+{
+	padding-right: 90px;
+	margin-left: 32px;
+	font-size: 10px;
+}
+
+.billet 
+{
+	font-size: 11px;
+	margin-right: 67px;
+	margin-left: 8px;
+}
+
+.commentaires
+{
+	font-size: 11px;
+	margin-right: 17px;
+	line-height: 16px;
+}
+
+.blabla
+{
+	font-size: 10px;
+	margin-left: 45px;
+	line-height: 18px;
+}
+
+.txt
+{
+    text-align: center;
+}
+
+#add
+{
+	margin-bottom: 1%;
+}
+
+#date
+{
+	margin-top: -1%;
+}
+
+#animaux
+{
+	margin-top: 2%;
+	font-size: 12px;
+}
+
+#compagnie
+{
+	line-height: 149%;
+	font-size: 10px;
+	margin-top: 6%;
+	margin-bottom: 7px;
+}
+#merci
+{
+	margin-top: 2%;
+	font-size: 12px;
+}
+
+#accro
+{
+	font-size: 10px;
+	line-height: 160%;
+	margin-top: 4%;
+}
+
+.img
+{
+    vertical-align: middle;
+    float: left;
+}
+
+#bla
+{
+	font-size: 10px;
+	line-height: 160%;
+}
+
+.com
+{
+	text-decoration: underline;
+}
+
+/*FOOTER 2*/
+
+.footer2
+{
+	padding-left: 23%;
+	padding-top: 11px;
+}
+
+.copy
+{
+	font-size: 10px;
+}
+
+.icones
+{
+	float: right;
+	margin-top: -47px;
+	margin-right: 14%;
+}
